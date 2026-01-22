@@ -7,7 +7,7 @@ Este projeto é uma implementação de um relógio analógico funcional que util
 O projeto vai além de um simples script, abordando conceitos fundamentais de engenharia de software e computação gráfica:
 
 - **Matemática Avançada**: Uso de funções trigonométricas ($\sin$ e $\cos$) para converter o tempo (segundos, minutos e horas) em coordenadas cartesianas ($x, y$) no Canvas.
-- **Programação Orientada a Objetos (POO)**: O código é estruturado em uma classe (`RelogioAnalogico`), facilitando a organização de estados e métodos de desenho.
+- **Programação Orientada a Objetos (POO)**: O código é estruturado em uma classe (`relogio`), facilitando a organização de estados e métodos de desenho.
 - **Renderização Dinâmica**: Implementação de um loop de atualização assíncrono com `root.after()`, permitindo que a interface seja redesenhada a cada segundo sem travar a execução do sistema.
 - **Interface Gráfica (GUI)**: Uso do componente `Canvas` do Tkinter para desenho vetorial de formas geométricas.
 
